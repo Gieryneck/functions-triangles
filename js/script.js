@@ -15,7 +15,8 @@ function getTriangleArea (a, h) {
 		var triangleArea = a * h / 2; /* ta zmienna musi być tutaj, żeby była aktualizowana przy każdym kolejnym wywołaniu fcji getTriangleArea, gdyby była zdeklarowana 
 		z powyższymi zmiennymi wartość triangleArea nie zmieniałaby się mimo nowych a i h */
 		console.log('The computed field of the triangle is ' + triangleArea + ' cm2.'); 
-		return alert('The computed field of the triangle is ' + triangleArea + ' cm2.');	
+		alert('The computed field of the triangle is ' + triangleArea + ' cm2.');	
+		return triangleArea; // return musi zwracac wartosc pola trojkata, zeby zmienne triangle1Area triangle2Area triangle3Area mialy jakas wartosc !!!
 	}
 
 }
